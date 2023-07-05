@@ -1,0 +1,39 @@
+.calculadora {
+    width: 240px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.display {
+    margin-bottom: 10px;
+}
+
+.display input {
+    width: 90%;
+    padding: 5px;
+    border-radius: 3px;
+    /*border: none;*/
+    font-size: 18px;
+    text-align: right;
+}
+
+.botoes button {
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    background-color: #fff;
+    font-size: 18px;
+    color: #333;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    margin-right: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.botoes button:hover {
+    background-color: #ccc;
+}
